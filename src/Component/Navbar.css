@@ -1,0 +1,50 @@
+.navbar-items{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+Link{
+    text-decoration: none
+}
+
+.navbar-items p:hover{
+    border-bottom: 3px solid black;
+    transition: 0.3s;
+}
+.navbar-item{
+   
+    background-color:white;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+
+}
+.inner-navbar{
+     display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 6px 40px;
+}
+.logo img{
+    width: 300px;
+}
+.hire{
+    padding: 0px 30px;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid blue;
+    cursor: pointer;
+    height: 40px;
+    margin-top: -7px;
+    border-radius: 5px;
+
+}

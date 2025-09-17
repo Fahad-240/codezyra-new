@@ -1,0 +1,50 @@
+.home-container{
+    margin-top: 130px;
+}
+.slider {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 70px; /* navbar ke liye space */
+}
+
+.slider-overlay {
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+
+}
+.slider-overlay{
+    width: 60%;
+    padding-left: 50px;
+}
+.slider-overlay h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.slider-overlay p{
+    font-size: 22px;
+}
+.details-btn {
+  background: #007bff;
+  padding: 12px 20px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.detail-btn button{
+    margin-top: 30px;
+    padding: 15px 50px;
+    background-color:#086AD8;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    border: 1px solid #086AD8;
+    border-radius: 6px ;
+}
