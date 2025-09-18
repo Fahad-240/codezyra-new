@@ -1,28 +1,31 @@
 .navbar-items{
     display: flex;
     gap: 30px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     cursor: pointer;
     margin-right: 20px;
     
 }
-Link{
-    text-decoration: none
+.navbar-items p{
+    /* padding: 10px 0px; */
+    color: black;
+    text-decoration: none;
 }
+
 
 .navbar-items p:hover{
     border-bottom: 3px solid black;
     transition: 0.3s;
 }
 .navbar-item{
-   
-    background-color:white;
-    padding: 15px 20px;
+   background-color:white;
+    padding: 10px 20px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 
 }
@@ -33,18 +36,56 @@ Link{
     padding: 6px 40px;
 }
 .logo img{
-    width: 300px;
+    width: 200px;
 }
 .hire{
-    padding: 0px 30px;
-    background-color: blue;
-    font-size: 20px;
+    padding: 0px 25px;
+    background-color: #0B5ED7;
+    font-size: 17px;
     font-weight: 500;
     color: white;
-    border: 1px solid blue;
+    border: 1px solid #0B5ED7;
     cursor: pointer;
     height: 40px;
     margin-top: -7px;
     border-radius: 5px;
 
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 190px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dropdown links */
+.dropdown-menu a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  transition: background 0.3s;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.dropdown-menu a:hover {
+  background: #0B5ED7;
+  color: white;
+}
+.dropdown-menu link{
+    font-size: 13px;
 }
